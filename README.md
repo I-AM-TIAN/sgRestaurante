@@ -9,6 +9,16 @@ Este documento describe los pasos necesarios para ejecutar el software `sgRestau
 3. **Composer**: Instale Composer desde [getcomposer.org](https://getcomposer.org/).
 4. **Git**: Asegúrese de tener Git instalado. Puede descargarlo desde [git-scm.com](https://git-scm.com/).
 
+## Ejecutar Programas
+1. **Ejecutar xampp**
+    ```
+    Poner a correr los servicios de apache y mysql
+    ```
+2. **Abrir la terminal**
+    ```
+    Dirigirse a la carpeta donde quiere guardar el programa y abrir la terminal de git bash
+    ```
+
 ## Pasos para la Instalación
 
 1. **Clonar el Repositorio**:
