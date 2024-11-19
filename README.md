@@ -56,7 +56,15 @@ Este documento describe los pasos necesarios para ejecutar el software `sgRestau
     ```
     En caso de preguntar si desea crear la base de datos responder con yes
 
-6. **Iniciar el Servidor**:
+6. **Ingresar el usuario por defecto**:
+    ```bash
+    php artisan db:seed
+    ```
+    Esto creará un usuario en la base de datos con el que puede iniciar sesión, las credenciales son:
+   email: admin@admin.com
+   password: administrador@
+
+8. **Iniciar el Servidor**:
     ```bash
     php artisan serve
     ```
