@@ -5,7 +5,7 @@ Este documento describe los pasos necesarios para ejecutar el software `sgRestau
 ## Requisitos Previos
 
 1. **Sistema Operativo**: Asegúrese de que el equipo destino tenga un sistema operativo compatible (Windows, macOS, Linux).
-2. **PHP**: Instale PHP desde [php.net](https://www.php.net/).
+2. **PHP**: Instale PHP desde [apachefriends.org](https://www.apachefriends.org/es/index.html).
 3. **Composer**: Instale Composer desde [getcomposer.org](https://getcomposer.org/).
 4. **Git**: Asegúrese de tener Git instalado. Puede descargarlo desde [git-scm.com](https://git-scm.com/).
 
