@@ -23,7 +23,7 @@ Este documento describe los pasos necesarios para ejecutar el software `sgRestau
 
 1. **Clonar el Repositorio**:
     ```bash
-    git clone https://github.com/tu-usuario/sgRestaurante.git
+    git clone https://github.com/I-AM-TIAN/sgRestaurante.git
     cd sgRestaurante
     ```
 
