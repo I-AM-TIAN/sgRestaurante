@@ -50,6 +50,13 @@ Este documento describe los pasos necesarios para ejecutar el software `sgRestau
     DB_PASSWORD=contraseña //Por lo general se deja vacío
     ```
 
+5. **Cambiar la zona horaria**:
+    En el archivo `.env` editar el apartado de APP_TIMEZONE
+    y modificar para que quede:
+    ```
+    APP_TIMEZONE=America/Bogota
+    ```
+
 5. **Ejecutar Migraciones de Base de Datos**:
     ```bash
     php artisan migrate
@@ -63,6 +70,11 @@ Este documento describe los pasos necesarios para ejecutar el software `sgRestau
     Esto creará un usuario en la base de datos con el que puede iniciar sesión, las credenciales son:
    email: admin@admin.com
    password: administrador@
+
+7. **Activar el almacenamiento de la aplicación**:
+    ```bash
+    php artisan storage:link
+    ```
 
 8. **Iniciar el Servidor**:
     ```bash
